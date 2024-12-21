@@ -70,7 +70,7 @@ def monte_carlo_arma_1_1(constant, phi_1, theta_1, T=100, N=1000):
 
 if not os.path.exists('df_inflation_monthly.csv') or not os.path.exists('df_exchange_rate_index_monthly.csv'):
 
-    target_script_dir = r'H:\Mi unidad\U\Teoría Econométrica III\2024\Tareas\T1\data\downloads\code_snippets'
+    target_script_dir = r'data\downloads\code_snippets'
     sys.path.append(target_script_dir)
 
     import python_snippet_japan_cpi_changes
